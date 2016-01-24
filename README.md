@@ -2,6 +2,12 @@
 
 Android Animator library inspired by Spring.
 
+# Install
+
+```
+compile 'me.mattak:autumn:0.0.1'
+```
+
 # License
 
 Copyright (c) 2016 MARUYAMA Takuma (mattak)
