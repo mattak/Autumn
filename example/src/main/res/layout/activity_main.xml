@@ -16,12 +16,25 @@
         android:layout_centerInParent="true"
         android:background="#ff33b5e5" />
 
-    <Button
-        android:id="@+id/button"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="Start" />
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_animator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animator" />
+
+        <Spinner
+            android:id="@+id/spinner_animator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Spinner>
+
+    </LinearLayout>
 
 </RelativeLayout>
