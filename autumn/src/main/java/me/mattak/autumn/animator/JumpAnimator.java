@@ -36,8 +36,7 @@ public class JumpAnimator extends BaseAnimator {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
                 float value = (Float) animation.getAnimatedValue();
-                float newValue = gravityInterpolator.getInterpolation(value);
-                view.setTranslationY(newValue);
+                view.setTranslationY(value);
             }
         });
         half.setInterpolator(new CompositeInterpolator(gravityInterpolator, this.interpolator));
