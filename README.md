@@ -1,3 +1,5 @@
+![Autumn](./art/autumn.jpg)
+
 # Autumn [![Maven Central](https://maven-badges.herokuapp.com/maven-central/me.mattak/autumn/badge.svg)](https://maven-badges.herokuapp.com/maven-central/me.mattak/autumn)
 
 Android Animator library inspired by Spring.
